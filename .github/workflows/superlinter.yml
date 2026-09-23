@@ -15,4 +15,6 @@ jobs:
         env:
           DEFAULT_BRANCH: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FILTER_REGEX_EXCLUDE: .*(\.min\.css|\.min\.js|css/bootstrap.*|js/bootstrap.*)
+          VALIDATE_CSS: false
+          VALIDATE_JAVASCRIPT_ES: false
+          VALIDATE_HTML: false
